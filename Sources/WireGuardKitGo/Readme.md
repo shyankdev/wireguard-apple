@@ -1,3 +1,5 @@
+brew install wireguard-tools
+
 GOOS=ios \
 GOARCH=arm64 \
 CC=$(xcrun --sdk iphoneos --find clang) \
